@@ -93,7 +93,10 @@ add_one(add_one(add_one(add_one(add_one(add_one(1))))))
 
 # EXPRESSIONS PLAYGROUND BEGINS
 
-
+print(add_one(add_one(add_one(add_one(add_one(add_one(2)))))))
+print(add_one(3))
+print(2 + add_one(4) * 3 )
+print((add_one(4)*3))
 
 # EXPRESSIONS PLAYGROUND ENDS
 

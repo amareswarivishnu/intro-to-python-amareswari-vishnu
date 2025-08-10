@@ -46,8 +46,9 @@ print("")
 print("Function: get_first_letter")
 
 def get_first_letter(the_str):
+  return the_str[0:1]
   # Return the first letter of the string
-  pass
+ # pass
 
 check_that_these_are_equal(
   get_first_letter("The king granted them"),
@@ -65,8 +66,9 @@ print("")
 print("Function: get_last_letter")
 
 def get_last_letter(the_str):
+  return the_str[-1]
   # Return the last letter of the string
-  pass
+ # pass
 
 check_that_these_are_equal(
   get_last_letter("The king granted them"),
@@ -84,8 +86,9 @@ print("")
 print("Function: get_nth_letter")
 
 def get_nth_letter(the_str, n):
+  return the_str[n] 
   # Return the letter of the string at the specified index
-  pass
+  #pass
 
 check_that_these_are_equal(
   get_nth_letter("The king granted them", 4),
@@ -103,8 +106,9 @@ print("")
 print("Function: get_letters_between_four_and_eight")
 
 def get_letters_between_four_and_eight(the_str):
+  return the_str[4:8]
   # Return the section of the string between indexes four and eight
-  pass
+ # pass
 
 check_that_these_are_equal(
   get_letters_between_four_and_eight("The king granted them"),

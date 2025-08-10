@@ -40,7 +40,7 @@ print(text)
 
 another_text = "\n".join(lines)
 # Uncomment this next line if you want to see it:
-# print(another_text)
+print(another_text)
 
 # `join` is actually little smarter — it only adds the `\n` character between
 # lines, not at the end also.
@@ -51,8 +51,12 @@ print("")
 print("Function: add_up_numbers")
 
 # Add up all the numbers in the list
-def add_up_numbers(numbers):
-  pass
+def add_up_numbers(values):
+  addition =0
+  for number in values:
+   addition += number
+  return addition
+ #pass
 
 check_that_these_are_equal(
   add_up_numbers([1, 2, 3, 4]), 10)

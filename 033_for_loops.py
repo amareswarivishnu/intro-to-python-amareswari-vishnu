@@ -32,6 +32,7 @@ def print_numbers_in_range_with_a_while():
     print(f"This number is {number}")
     number = number + 1
 
+
 # The `for` and `range` version is a bit more concise.
 
 # You're probably expecting an exercise now. But not just yet. Lists and loops
@@ -45,3 +46,5 @@ def print_numbers_in_range_with_a_while():
 # * Filtering: Using a loop to pick out only some items from a list.
 
 # To start summarising, go to 034_summarising.py
+print_numbers_in_range_with_a_while()
+print_numbers_in_range()

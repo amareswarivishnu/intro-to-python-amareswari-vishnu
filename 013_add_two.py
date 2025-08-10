@@ -11,14 +11,15 @@ from lib.helpers import check_that_these_are_equal
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
-
+def add_two(num):
+  return num + 1
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
 
 # @TASK: To check your work, run this in the terminal:
 
-#   python 013_add_two.py
+#    python 013_add_two.py
 
 # This will run the test at the bottom of this file.
 
@@ -29,9 +30,8 @@ from lib.helpers import check_that_these_are_equal
 
 print("Function: add_two")
 
-check_that_these_are_equal(
-  add_two(6),
-  8
-)
+
+
+check_that_these_are_equal(add_two(7), 8)
 
 # When you're done, move on to 014_multiply_numbers.py
